@@ -1,0 +1,28 @@
+<!-- 
+Filename: s3navigator.html
+Version: 3.15.7.43
+Dated: 22-AUG-2021
+Author: John Shubeck (jrshubeck@gmail.com)
+Source: A fork of https://github.com/rufuspollock/s3-bucket-listing
+-->
+
+<html>
+<head>
+      <title>S3 Navigator</title>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+  <h3>S3 Navigator</h2>
+  <div id="navigation"></div>
+  <div id="listing"></div>
+
+<!-- For a Cloud Object Storage System on prem system, change "jrs-vault-1" to your local bucket name -->
+<script type="text/javascript">
+      var S3BL_IGNORE_PATH = true;
+      var BUCKET_NAME = 'jrs-vault-1';
+</script>
+
+<script type="text/javascript" src="https://ibm-s3-explorer.s3.us-south.cloud-object-storage.appdomain.cloud/s3navigator.js"></script>
+
+</body>
+</html>
