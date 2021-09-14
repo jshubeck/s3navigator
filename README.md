@@ -1,3 +1,7 @@
+Navigate an S3 bucket hosted by an on premises object storage system.
+
+## Legacy notes by Rufus Pollock
+
 Create nice directory listings for s3 buckets using only javascript and HTML.
 
 The listing can be deployed on any site and can also be deployed into a bucket.
