@@ -1,6 +1,13 @@
 ## Current notes for this branch
 
-Navigate an S3 bucket hosted by an on premises object storage system.
+Navigate an S3 bucket hosted by an on-premises object storage system.
+
+Simple usage steps:
+1. Edit a copy of s3navigator.html and enter your bucket name you wish to list and navigate.
+2. PUT the edited s3navigator.html to the S3 bucket named above
+3. Ensure the access permission on the bucket is public/read
+4. Open a browser to http://{s3-endpoint-address}/bucketname/s3navigator.html
+
 
 ## Legacy notes by Rufus Pollock
 
